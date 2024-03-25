@@ -1,0 +1,58 @@
+@media screen and (min-width: 380px) {
+  div {
+    max-width: 380px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  div {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  div {
+    max-width: 1024px;
+  }
+}
+
+body {
+  background-color: rgb(254, 152, 186);
+}
+
+label {
+  font-style: oblique;
+  font-weight: bold;
+  filter: grayscale(100%) invert(12%) sepia(100%) saturate(1000%)
+    hue-rotate(10deg);
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 10%;
+  border-color: violet;
+}
+
+h1 {
+  text-align: center;
+  color: #9c06d7;
+}
+
+h2 {
+  color: #a807de;
+  text-align: center;
+}
+
+div {
+  margin: 0 auto;
+}
+
+.resetButton {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #661d66;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
